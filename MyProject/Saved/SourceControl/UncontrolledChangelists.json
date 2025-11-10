@@ -5,6 +5,12 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/2311154/Documents/GitHub/clucktower/MyProject/Content/blueprints/Interact.uasset",
+				"C:/Users/2311154/Documents/GitHub/clucktower/MyProject/Content/blueprints/Button.uasset",
+				"C:/Users/2311154/Documents/GitHub/clucktower/MyProject/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
+				"C:/Users/2311154/Documents/GitHub/clucktower/MyProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/3/SO/F4NZ4D3IXP7B8RMQUXVP79.uasset",
+				"C:/Users/2311154/Documents/GitHub/clucktower/MyProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/A/29/5QJI6FPUFV6WMKQSOJZECZ.uasset",
+				"C:/Users/2311154/Documents/GitHub/clucktower/MyProject/Content/blueprints/Door.uasset",
 				"C:/Users/2311154/Documents/Unreal Projects/MyProject/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset"
 			]
 		}
