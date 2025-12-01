@@ -4005,3 +4005,325 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.12.01-10.57.37:716][264]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2789.503662
 [2025.12.01-10.57.37:834][275]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.12.01-10.57.37:834][275]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2789.611328, Update Interval: 351.858887
+[2025.12.01-11.03.57:216][852]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2025.12.01-11.03.57:226][852]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.12.01-11.03.57:226][852]LogPlayLevel: Creating play world package: /Game/FirstPerson/UEDPIE_0_Lvl_TitleScreen
+[2025.12.01-11.03.57:228][852]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001943s)
+[2025.12.01-11.03.57:228][852]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Lvl_TitleScreen.Lvl_TitleScreen to /Game/FirstPerson/UEDPIE_0_Lvl_TitleScreen.Lvl_TitleScreen (0.001984s)
+[2025.12.01-11.03.57:252][852]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2025.12.01-11.03.57:255][852]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_TitleScreen
+[2025.12.01-11.03.57:257][852]LogPlayLevel: PIE: World Init took: (0.001761s)
+[2025.12.01-11.03.57:257][852]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2025.12.01-11.03.57:258][852]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.12.01-11.03.57:258][852]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.12.01-11.03.57:258][852]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.12.01-11.03.57:258][852]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.12.01-11.03.57:258][852]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.12.01-11.03.57:258][852]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.12.01-11.03.57:258][852]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.12.01-11.03.57:258][852]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.12.01-11.03.57:258][852]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.12.01-11.03.57:258][852]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.12.01-11.03.57:258][852]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.12.01-11.03.57:260][852]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.12.01-11.03.57:320][852]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.12.01-11.03.57:320][852]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.12.01-11.03.57:320][852]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.12.01-11.03.57:320][852]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.12.01-11.03.57:321][852]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=24
+[2025.12.01-11.03.57:321][852]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=24
+[2025.12.01-11.03.57:323][852]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=24
+[2025.12.01-11.03.57:323][852]LogInit: FAudioDevice initialized with ID 24.
+[2025.12.01-11.03.57:323][852]LogAudio: Display: Audio Device (ID: 24) registered with world 'Lvl_TitleScreen'.
+[2025.12.01-11.03.57:323][852]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=24
+[2025.12.01-11.03.57:323][852]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 24
+[2025.12.01-11.03.57:360][852]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.01-11.03.57:360][852]LogLoad: Game class is 'BP_TitleScreenGameMode_C'
+[2025.12.01-11.03.57:360][852]LogWorld: Bringing World /Game/FirstPerson/UEDPIE_0_Lvl_TitleScreen.Lvl_TitleScreen up for play (max tick rate 0) at 2025.12.01-11.03.57
+[2025.12.01-11.03.57:362][852]LogWorld: Bringing up level for play took: 0.001036
+[2025.12.01-11.03.57:364][852]LogOnline: OSS: Created online subsystem instance for: :Context_60
+[2025.12.01-11.03.57:365][852]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2025.12.01-11.03.57:365][852]LogEnhancedInput: Warning: Called AddMappingContext with a null Mapping Context! No changes have been applied.
+[2025.12.01-11.03.57:369][852]PIE: Server logged in
+[2025.12.01-11.03.57:372][852]PIE: Play in editor total start time 0.147 seconds.
+[2025.12.01-11.03.57:436][853]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.12.01-11.03.57:696][879]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/FirstPerson/Lvl_FirstPerson"
+[2025.12.01-11.03.57:696][879]LogNet: Browse: /Game/FirstPerson/Lvl_FirstPerson
+[2025.12.01-11.03.57:696][879]LogLoad: LoadMap: /Game/FirstPerson/Lvl_FirstPerson
+[2025.12.01-11.03.57:696][879]LogWorld: BeginTearingDown for /Game/FirstPerson/UEDPIE_0_Lvl_TitleScreen
+[2025.12.01-11.03.57:697][879]LogWorld: UWorld::CleanupWorld for Lvl_TitleScreen, bSessionEnded=true, bCleanupResources=true
+[2025.12.01-11.03.57:697][879]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.01-11.03.57:746][879]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.12.01-11.03.57:749][879]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2025.12.01-11.03.57:752][879]LogStreaming: Display: FlushAsyncLoading(2642): 1 QueuedPackages, 0 AsyncPackages
+[2025.12.01-11.03.57:758][879]LogAudio: Display: Audio Device (ID: 24) registered with world 'Lvl_FirstPerson'.
+[2025.12.01-11.03.57:758][879]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_FirstPerson
+[2025.12.01-11.03.57:760][879]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_FirstPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.12.01-11.03.57:760][879]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.12.01-11.03.57:760][879]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 1, IsCooking = 0
+[2025.12.01-11.03.57:760][879]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.12.01-11.03.57:761][879]LogWorldPartition: Display: GenerateStreaming for 'Lvl_FirstPerson' started...
+[2025.12.01-11.03.57:808][879]LogWorldPartition: Display: GenerateStreaming for 'Lvl_FirstPerson' took 47.044 ms (total: 1.04 sec)
+[2025.12.01-11.03.57:810][879]LogWorldPartition: Display: WorldPartition initialize took 50.646 ms (total: 1.12 sec)
+[2025.12.01-11.03.57:810][879]LogPlayLevel: PIE: World Init took: (0.052205s)
+[2025.12.01-11.03.57:810][879]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.12.01-11.03.57:831][879]LogWorld: Bringing World /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson up for play (max tick rate 0) at 2025.12.01-11.03.57
+[2025.12.01-11.03.57:831][879]LogWorld: Bringing up level for play took: 0.020935
+[2025.12.01-11.03.57:834][879]LogActor: Loaded Actor (Book_GEN_VARIABLE_Book_C_CAT) with IsValid() == false
+[2025.12.01-11.03.57:837][879]LogLoad: Took 0.141030 seconds to LoadMap(/Game/FirstPerson/Lvl_FirstPerson)
+[2025.12.01-11.03.57:837][879]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/FirstPerson/Lvl_FirstPerson
+[2025.12.01-11.03.57:852][880]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.12.01-11.04.15:908][824]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/FirstPerson/Lvl_Lose"
+[2025.12.01-11.04.15:908][824]LogNet: Browse: /Game/FirstPerson/Lvl_Lose
+[2025.12.01-11.04.15:908][824]LogLoad: LoadMap: /Game/FirstPerson/Lvl_Lose
+[2025.12.01-11.04.15:908][824]LogWorld: BeginTearingDown for /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson
+[2025.12.01-11.04.15:909][824]LogWorld: UWorld::CleanupWorld for Lvl_FirstPerson, bSessionEnded=true, bCleanupResources=true
+[2025.12.01-11.04.15:910][824]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.01-11.04.15:910][824]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson
+[2025.12.01-11.04.15:982][824]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.12.01-11.04.15:988][824]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2025.12.01-11.04.15:991][824]LogStreaming: Display: FlushAsyncLoading(2742): 1 QueuedPackages, 0 AsyncPackages
+[2025.12.01-11.04.16:008][824]LogAudio: Display: Audio Device (ID: 24) registered with world 'Lvl_Lose'.
+[2025.12.01-11.04.16:008][824]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_Lose
+[2025.12.01-11.04.16:010][824]LogPlayLevel: PIE: World Init took: (0.001691s)
+[2025.12.01-11.04.16:010][824]LogLoad: Game class is 'BP_TitleScreenGameMode_C'
+[2025.12.01-11.04.16:011][824]LogWorld: Bringing World /Game/FirstPerson/UEDPIE_0_Lvl_Lose.Lvl_Lose up for play (max tick rate 0) at 2025.12.01-11.04.16
+[2025.12.01-11.04.16:011][824]LogWorld: Bringing up level for play took: 0.000568
+[2025.12.01-11.04.16:011][824]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2025.12.01-11.04.16:011][824]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2025.12.01-11.04.16:013][824]LogEnhancedInput: Warning: Called AddMappingContext with a null Mapping Context! No changes have been applied.
+[2025.12.01-11.04.16:013][824]LogLoad: Took 0.104673 seconds to LoadMap(/Game/FirstPerson/Lvl_Lose)
+[2025.12.01-11.04.16:013][824]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/FirstPerson/Lvl_Lose
+[2025.12.01-11.04.16:017][824]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.12.01-11.04.17:683][ 20]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/FirstPerson/Lvl_TitleScreen"
+[2025.12.01-11.04.17:683][ 20]LogNet: Browse: /Game/FirstPerson/Lvl_TitleScreen
+[2025.12.01-11.04.17:683][ 20]LogLoad: LoadMap: /Game/FirstPerson/Lvl_TitleScreen
+[2025.12.01-11.04.17:683][ 20]LogWorld: BeginTearingDown for /Game/FirstPerson/UEDPIE_0_Lvl_Lose
+[2025.12.01-11.04.17:683][ 20]LogWorld: UWorld::CleanupWorld for Lvl_Lose, bSessionEnded=true, bCleanupResources=true
+[2025.12.01-11.04.17:683][ 20]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.01-11.04.17:737][ 20]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.12.01-11.04.17:739][ 20]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2025.12.01-11.04.17:741][ 20]LogPlayLevel: Creating play world package: /Game/FirstPerson/UEDPIE_0_Lvl_TitleScreen
+[2025.12.01-11.04.17:743][ 20]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001658s)
+[2025.12.01-11.04.17:743][ 20]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Lvl_TitleScreen.Lvl_TitleScreen to /Game/FirstPerson/UEDPIE_0_Lvl_TitleScreen.Lvl_TitleScreen (0.001707s)
+[2025.12.01-11.04.17:743][ 20]LogAudio: Display: Audio Device (ID: 24) registered with world 'Lvl_TitleScreen'.
+[2025.12.01-11.04.17:743][ 20]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_TitleScreen
+[2025.12.01-11.04.17:745][ 20]LogPlayLevel: PIE: World Init took: (0.001446s)
+[2025.12.01-11.04.17:745][ 20]LogLoad: Game class is 'BP_TitleScreenGameMode_C'
+[2025.12.01-11.04.17:745][ 20]LogWorld: Bringing World /Game/FirstPerson/UEDPIE_0_Lvl_TitleScreen.Lvl_TitleScreen up for play (max tick rate 0) at 2025.12.01-11.04.17
+[2025.12.01-11.04.17:745][ 20]LogWorld: Bringing up level for play took: 0.000721
+[2025.12.01-11.04.17:746][ 20]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2025.12.01-11.04.17:746][ 20]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2025.12.01-11.04.17:746][ 20]LogEnhancedInput: Warning: Called AddMappingContext with a null Mapping Context! No changes have been applied.
+[2025.12.01-11.04.17:746][ 20]LogLoad: Took 0.064481 seconds to LoadMap(/Game/FirstPerson/UEDPIE_0_Lvl_TitleScreen)
+[2025.12.01-11.04.17:746][ 20]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/FirstPerson/UEDPIE_0_Lvl_TitleScreen
+[2025.12.01-11.04.17:751][ 20]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.12.01-11.04.29:887][438]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3201.673340
+[2025.12.01-11.04.30:007][452]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.01-11.04.30:007][452]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3201.783936, Update Interval: 340.610382
+[2025.12.01-11.06.55:841][ 31]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.01-11.06.55:841][ 31]LogWorld: BeginTearingDown for /Game/FirstPerson/UEDPIE_0_Lvl_TitleScreen
+[2025.12.01-11.06.55:841][ 31]LogSlate: Window 'MyProject Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.12.01-11.06.55:848][ 31]LogWorld: UWorld::CleanupWorld for Lvl_TitleScreen, bSessionEnded=true, bCleanupResources=true
+[2025.12.01-11.06.55:848][ 31]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.01-11.06.55:849][ 31]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.12.01-11.06.55:854][ 31]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.01-11.06.55:883][ 31]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 24
+[2025.12.01-11.06.55:883][ 31]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24, StreamState=4
+[2025.12.01-11.06.55:885][ 31]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24, StreamState=2
+[2025.12.01-11.06.55:891][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2025.12.01-11.06.56:152][ 32]LogPlayLevel: Display: Destroying online subsystem :Context_60
+[2025.12.01-11.07.11:090][ 73]LogEditorTransaction: Undo Collapses selected nodes into a single node
+[2025.12.01-11.07.14:999][291]LogEditorTransaction: Redo Collapses selected nodes into a single node
+[2025.12.01-11.07.16:250][350]LogEditorTransaction: Undo Collapses selected nodes into a single node
+[2025.12.01-11.07.21:920][760]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2025.12.01-11.07.22:758][799]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.12.01-11.07.22:786][799]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/BullyAI_CheckRoom_Task] ([2] browsable assets)...
+[2025.12.01-11.07.22:786][799]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/BullyAI_CheckRoom_Task]
+[2025.12.01-11.07.22:786][799]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BullyAI_CheckRoom_Task" FILE="../../../../../../Users/2311154/Documents/GitHub/clucktower/MyProject/Content/AI/BullyAI_CheckRoom_Task.uasset" SILENT=true
+[2025.12.01-11.07.22:820][799]LogSavePackage: Moving output files for package: /Game/AI/BullyAI_CheckRoom_Task
+[2025.12.01-11.07.22:820][799]LogSavePackage: Moving '../../../../../../Users/2311154/Documents/GitHub/clucktower/MyProject/Saved/BullyAI_CheckRoom_Task88AAEA6741D3E1D2E9C562A8E387F527.tmp' to '../../../../../../Users/2311154/Documents/GitHub/clucktower/MyProject/Content/AI/BullyAI_CheckRoom_Task.uasset'
+[2025.12.01-11.07.22:832][799]LogFileHelpers: InternalPromptForCheckoutAndSave took 73.433 ms (total: 882.379 ms)
+[2025.12.01-11.07.22:866][799]LogContentValidation: Display: Starting to validate 1 assets
+[2025.12.01-11.07.22:866][799]LogContentValidation: Enabled validators:
+[2025.12.01-11.07.22:866][799]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.12.01-11.07.22:866][799]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.12.01-11.07.22:866][799]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.12.01-11.07.22:866][799]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.12.01-11.07.22:867][799]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.12.01-11.07.22:867][799]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.12.01-11.07.22:867][799]AssetCheck: /Game/AI/BullyAI_CheckRoom_Task Validating asset
+[2025.12.01-11.07.31:130][422]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2025.12.01-11.07.33:627][422]LogSlate: Window 'Save Content' being destroyed
+[2025.12.01-11.07.33:636][422]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.12.01-11.07.33:677][422]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/blueprints/Book_UMG] ([2] browsable assets)...
+[2025.12.01-11.07.33:677][422]OBJ SavePackage: Finished generating thumbnails for package [/Game/blueprints/Book_UMG]
+[2025.12.01-11.07.33:677][422]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/blueprints/Book_UMG" FILE="../../../../../../Users/2311154/Documents/GitHub/clucktower/MyProject/Content/blueprints/Book_UMG.uasset" SILENT=true
+[2025.12.01-11.07.33:688][422]LogSavePackage: Moving output files for package: /Game/blueprints/Book_UMG
+[2025.12.01-11.07.33:688][422]LogSavePackage: Moving '../../../../../../Users/2311154/Documents/GitHub/clucktower/MyProject/Saved/Book_UMG5FF78FD74879E7AC1000169C22D64B01.tmp' to '../../../../../../Users/2311154/Documents/GitHub/clucktower/MyProject/Content/blueprints/Book_UMG.uasset'
+[2025.12.01-11.07.33:695][422]LogFileHelpers: InternalPromptForCheckoutAndSave took 59.259 ms (total: 941.638 ms)
+[2025.12.01-11.07.33:750][422]LogStall: Shutdown...
+[2025.12.01-11.07.33:750][422]LogStall: Shutdown complete.
+[2025.12.01-11.07.33:830][422]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.12.01-11.07.33:830][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.01-11.07.33:924][422]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.12.01-11.07.33:924][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.01-11.07.34:022][422]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2025.12.01-11.07.34:022][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.01-11.07.34:032][422]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2025.12.01-11.07.34:032][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.01-11.07.34:086][422]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2025.12.01-11.07.34:086][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.01-11.07.34:158][422]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2025.12.01-11.07.34:158][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.01-11.07.34:168][422]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2025.12.01-11.07.34:168][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.01-11.07.34:225][422]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.12.01-11.07.34:225][422]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2025.12.01-11.07.34:225][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.01-11.07.34:312][422]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2025.12.01-11.07.34:312][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.01-11.07.34:321][422]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2025.12.01-11.07.34:321][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.01-11.07.34:367][422]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.12.01-11.07.34:367][422]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2025.12.01-11.07.34:367][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.01-11.07.34:440][422]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.12.01-11.07.34:440][422]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2025.12.01-11.07.34:440][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.01-11.07.34:537][422]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2025.12.01-11.07.34:537][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.01-11.07.34:546][422]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2025.12.01-11.07.34:546][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.01-11.07.34:613][422]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2025.12.01-11.07.34:613][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.01-11.07.34:622][422]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2025.12.01-11.07.34:622][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.01-11.07.34:791][422]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2025.12.01-11.07.34:791][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.01-11.07.34:884][422]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2025.12.01-11.07.34:884][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.01-11.07.34:894][422]LogWorld: UWorld::CleanupWorld for World_38, bSessionEnded=true, bCleanupResources=true
+[2025.12.01-11.07.34:894][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.01-11.07.34:937][422]LogWorld: UWorld::CleanupWorld for World_50, bSessionEnded=true, bCleanupResources=true
+[2025.12.01-11.07.34:938][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.01-11.07.34:994][422]LogSlate: Window 'MyProject - Unreal Editor' being destroyed
+[2025.12.01-11.07.34:996][422]LogWindowsTextInputMethodSystem: Activated input method: English (United Kingdom) - (Keyboard).
+[2025.12.01-11.07.35:192][422]LogContentValidation: Display: Starting to validate 1 assets
+[2025.12.01-11.07.35:192][422]LogContentValidation: Enabled validators:
+[2025.12.01-11.07.35:192][422]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.12.01-11.07.35:192][422]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.12.01-11.07.35:192][422]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.12.01-11.07.35:192][422]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.12.01-11.07.35:192][422]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.12.01-11.07.35:192][422]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.12.01-11.07.35:193][422]AssetCheck: /Game/blueprints/Book_UMG Validating asset
+[2025.12.01-11.07.35:254][422]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2025.12.01-11.07.35:288][422]Cmd: QUIT_EDITOR
+[2025.12.01-11.07.35:288][422]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2025.12.01-11.07.35:292][422]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/2311154/Documents/GitHub/clucktower/MyProject/Saved/SourceControl/UncontrolledChangelists.json
+[2025.12.01-11.07.35:300][423]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.12.01-11.07.35:300][423]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.12.01-11.07.35:301][423]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.12.01-11.07.35:301][423]LogWorld: UWorld::CleanupWorld for Lvl_TitleScreen, bSessionEnded=true, bCleanupResources=true
+[2025.12.01-11.07.35:301][423]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.01-11.07.35:313][423]LogStylusInput: Shutting down StylusInput subsystem.
+[2025.12.01-11.07.35:313][423]LogTedsSettings: UTedsSettingsEditorSubsystem::Deinitialize
+[2025.12.01-11.07.35:313][423]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2025.12.01-11.07.35:322][423]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2025.12.01-11.07.35:322][423]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.01-11.07.35:325][423]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2025.12.01-11.07.35:325][423]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.01-11.07.35:327][423]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2025.12.01-11.07.35:327][423]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.01-11.07.35:330][423]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2025.12.01-11.07.35:330][423]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.01-11.07.35:332][423]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2025.12.01-11.07.35:332][423]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.01-11.07.35:334][423]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2025.12.01-11.07.35:334][423]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.01-11.07.35:336][423]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
+[2025.12.01-11.07.35:336][423]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.01-11.07.35:337][423]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2025.12.01-11.07.35:337][423]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.01-11.07.35:340][423]LogWorld: UWorld::CleanupWorld for World_34, bSessionEnded=true, bCleanupResources=true
+[2025.12.01-11.07.35:340][423]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.01-11.07.35:342][423]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2025.12.01-11.07.35:342][423]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.01-11.07.35:344][423]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
+[2025.12.01-11.07.35:345][423]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.01-11.07.35:346][423]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2025.12.01-11.07.35:346][423]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.01-11.07.35:348][423]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2025.12.01-11.07.35:348][423]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.01-11.07.35:350][423]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2025.12.01-11.07.35:350][423]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.01-11.07.35:353][423]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2025.12.01-11.07.35:353][423]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.01-11.07.35:355][423]LogRuntimeTelemetry: Recording EnginePreExit events
+[2025.12.01-11.07.35:355][423]LogStudioTelemetry: Ended StudioTelemetry Session
+[2025.12.01-11.07.35:359][423]LogAnalytics: Display: [UEEditor.Rocket.Release] AnalyticsET::EndSession
+[2025.12.01-11.07.36:256][423]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.12.01-11.07.36:256][423]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.12.01-11.07.36:256][423]LogAudio: Display: Audio Device unregistered from world 'Lvl_TitleScreen'.
+[2025.12.01-11.07.36:256][423]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2025.12.01-11.07.36:256][423]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=4
+[2025.12.01-11.07.36:257][423]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=2
+[2025.12.01-11.07.36:263][423]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2025.12.01-11.07.36:263][423]LogAudio: Display: Audio Device Manager Shutdown
+[2025.12.01-11.07.36:266][423]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.12.01-11.07.36:266][423]LogExit: Preparing to exit.
+[2025.12.01-11.07.36:327][423]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2025.12.01-11.07.36:332][423]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.12.01-11.07.36:332][423]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.12.01-11.07.36:332][423]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_null_above_selected_PY.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.12.01-11.07.36:332][423]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.12.01-11.07.36:332][423]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.12.01-11.07.36:332][423]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.12.01-11.07.36:332][423]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.12.01-11.07.36:332][423]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.12.01-11.07.36:332][423]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.12.01-11.07.36:332][423]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.12.01-11.07.36:332][423]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.12.01-11.07.36:332][423]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.12.01-11.07.36:332][423]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.12.01-11.07.36:332][423]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.12.01-11.07.36:332][423]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.12.01-11.07.36:332][423]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.12.01-11.07.36:332][423]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.12.01-11.07.36:332][423]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.12.01-11.07.36:332][423]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/set_bone_reference_pose_PY.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.12.01-11.07.36:332][423]LogPython: Display: Object '/ControlRig/Python/ControlRigWorkflows/workflow_fbik_import_ik_rig_PY.import_ik_rig_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.12.01-11.07.36:332][423]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.12.01-11.07.36:981][423]LogEditorDataStorage: Deinitializing
+[2025.12.01-11.07.37:108][423]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.12.01-11.07.37:128][423]LogExit: Editor shut down
+[2025.12.01-11.07.37:131][423]LogExit: Transaction tracking system shut down
+[2025.12.01-11.07.37:302][423]LogExit: Object subsystem successfully closed.
+[2025.12.01-11.07.37:360][423]LogShaderCompilers: Display: Shaders left to compile 0
+[2025.12.01-11.07.37:437][423]LogMemoryProfiler: Shutdown
+[2025.12.01-11.07.37:437][423]LogNetworkingProfiler: Shutdown
+[2025.12.01-11.07.37:437][423]LoadingProfiler: Shutdown
+[2025.12.01-11.07.37:437][423]LogTimingProfiler: Shutdown
+[2025.12.01-11.07.37:438][423]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2025.12.01-11.07.37:438][423]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+[2025.12.01-11.07.37:779][423]LogChaosDD: Chaos Debug Draw Shutdown
+[2025.12.01-11.07.37:784][423]LogNFORDenoise: NFORDenoise function shutting down
+[2025.12.01-11.07.37:799][423]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2025.12.01-11.07.37:799][423]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0DA9C36B-4265-A5B3-7154-17B603E160ED%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=d2acb47449217f5c35bcfbab8b160cc0%7C%7C601cdd5e-6eff-4f59-a1d2-64a61111e561&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2025.12.01-11.07.38:356][423]LogEOSShared: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2025.12.01-11.07.38:356][423]RenderDocPlugin: plugin has been unloaded.
+[2025.12.01-11.07.38:359][423]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2025.12.01-11.07.38:359][423]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2025.12.01-11.07.38:359][423]LogPakFile: Destroying PakPlatformFile
+[2025.12.01-11.07.39:072][423]LogD3D12RHI: ~FD3D12DynamicRHI
+[2025.12.01-11.07.39:132][423]LogExit: Exiting.
+[2025.12.01-11.07.39:153][423]Log file closed, 12/01/25 11:07:39
